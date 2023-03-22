@@ -1,0 +1,52 @@
+.card {
+	width: 19.4375rem;
+	height: 13.875rem;
+	padding: 1.75rem;
+	box-shadow: 2px 2px 10px #676e747d;
+	border-radius: 5px;
+    @media screen and (min-width:768px) {
+        position: absolute;
+        width: 21.875rem;
+	height: 15.625rem;
+    }
+
+	&-title {
+		margin: 0;
+		font-size: 20px;
+		color: var(--primary-color);
+	}
+	&-data {
+		font-size: 13px;
+		font-weight: 300;
+		color: var(--secondary-color);
+	}
+	&-icon {
+        position: absolute;
+        right: 28px;
+		width: 57px;
+		height: 57px;
+	}
+
+    &:nth-child(1){
+        left: 0;
+        top: 150px;
+        border-top: 3px solid  var(--supervisor);
+        
+    }
+    &:nth-child(2){
+        top: 0;
+        left: 375px;
+        border-top: 3px solid  var(--team-builder);
+    }
+    &:nth-child(3){
+        bottom: 0;
+        left: 375px;
+        border-top: 3px solid  var(--karma);
+    }
+    &:nth-child(4){
+        right: 0;
+        top: 150px;
+        border-top: 3px solid  var(--calculator);
+    }
+}
+

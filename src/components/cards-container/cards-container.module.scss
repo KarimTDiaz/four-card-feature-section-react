@@ -1,0 +1,13 @@
+.cards-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5625rem;
+    position: relative;
+    @media screen and (min-width:768px) {
+        width:68.75rem ;
+        height: 33.125rem;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+}

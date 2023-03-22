@@ -1,0 +1,26 @@
+:root{
+	--primary-color:#4D4F62;
+	--secondary-color:#676E74;
+	--supervisor:#44D3D2;
+	--team-builder:#EA5454;
+	--karma:#FCAE4A;
+	--calculator:#549EF2;
+}
+
+*{
+	box-sizing: border-box;
+}
+img{
+	display: block;
+	max-width: 100%;
+	
+}
+
+body {
+	margin: 0;
+	max-width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
+	padding:85px 32px 76px 32px ;
+	font-family: 'Poppins', sans-serif;
+}
